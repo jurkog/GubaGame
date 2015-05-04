@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ChernoGame">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/ChernoGame_jar/ChernoGame.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

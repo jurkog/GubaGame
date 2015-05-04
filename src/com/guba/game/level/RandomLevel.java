@@ -1,0 +1,31 @@
+package com.guba.game.level;
+
+import java.util.Random;
+
+/**
+ * Created with IntelliJ IDEA.
+ * User: jurkoguba
+ * Date: 2013-12-14
+ * Time: 2:00 AM
+ * To change this template use File | Settings | File Templates.
+ */
+
+
+public class RandomLevel extends Level {
+
+    private static final Random random = new Random();
+
+    public RandomLevel(int width, int height) {
+        super(width, height);
+
+
+    }
+
+    protected void generateLevel() {
+        for (int y = 0; y < height; y++) {
+            for (int x = 0; x < width; x++) {
+                tilesInt[x + y * width] = random.nextInt(4);
+            }
+        }
+    }
+}

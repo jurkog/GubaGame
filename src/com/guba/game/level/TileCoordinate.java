@@ -1,0 +1,34 @@
+package com.guba.game.level;
+
+/**
+ * Created with IntelliJ IDEA.
+ * User: jurkoguba
+ * Date: 2013-12-16
+ * Time: 3:34 PM
+ * To change this template use File | Settings | File Templates.
+ */
+public class TileCoordinate {
+    private int x, y;
+    private final int TILE_SIZE = 16;
+
+    public TileCoordinate(int x, int y) {
+        this.x = x * TILE_SIZE;
+        this.y = y * TILE_SIZE;
+    }
+
+    public int x() {
+        return x;
+    }
+
+    public int y() {
+        return y;
+    }
+
+    public int[] xy() {
+        int[] r = new int[2];
+        r[0] = x;
+        r[1] = y;
+        return r;
+    }
+
+}

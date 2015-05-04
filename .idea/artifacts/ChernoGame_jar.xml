@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ChernoGame:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ChernoGame_jar</output-path>
+    <root id="archive" name="ChernoGame.jar">
+      <element id="module-output" name="ChernoGame" />
+    </root>
+  </artifact>
+</component>
