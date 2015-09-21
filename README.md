@@ -17,7 +17,7 @@ TheChernoProject was being developed very slowly at the time (because the author
 
 1. Multiplayer (Mixture of UDP and TCP)
   1. Ran and managed server off a VPS that I bought
-  2. Made a database file to hold all usernames, passwords, and inventories
+  2. ArrayList of client connections to hold all usernames, passwords, and inventories
   3. Implemented a login connection with TCP but a player-movement connection with UDP
 2. Inventory System (Featuring my own homemade inventory GUI)
   1. Players could pick up/drop weapons over the server so other players could pick them up
